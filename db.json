@@ -1,31 +1,25 @@
-{
-    "chartData": {
-        "labels": [
-            "sunday",
-            "monday",
-            "tuesday",
-            "wednesday",
-            "thursday",
-            "friday",
-            "saturday"
-        ],
-        "videosMades": [
-            20000,
-            14000,
-            12000,
-            15000,
-            18000,
-            19000,
-            22000
-        ],
-        "subscription": [
-            19000,
-            10000,
-            14000,
-            14000,
-            15000,
-            22000,
-            24000
+          chartData:{
+        labels: ['Boston', 'Worcester', 'Springfield', 'Lowell', 'Cambridge', 'New Bedford'],
+        datasets:[
+          {
+            label:'Population',
+            data:[
+              617594,
+              181045,
+              153060,
+              106519,
+              105162,
+              95072
+            ],
+            backgroundColor:[
+              'rgba(255, 99, 132, 0.6)',
+              'rgba(54, 162, 235, 0.6)',
+              'rgba(255, 206, 86, 0.6)',
+              'rgba(75, 192, 192, 0.6)',
+              'rgba(153, 102, 255, 0.6)',
+              'rgba(255, 159, 64, 0.6)',
+              'rgba(255, 99, 132, 0.6)'
+            ]
+          }
         ]
-    }
-}
+      }
